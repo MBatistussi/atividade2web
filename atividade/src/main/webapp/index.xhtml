@@ -22,7 +22,7 @@
 <h:body>
     <center><h2><h:outputText value="Series"/></h2></center>
     <h:form id="serieForm">
-        <h:dataTable id="serieTable" binding="#{table}" value="#{serieBean.serieList()}" var="serie" class="table table-striped table-hover table-bordered tableUpdated">
+        <h:dataTable id="serieTable" binding="#{table}" value="#{serieBean.seriesList()}" var="serie" class="table table-striped table-hover table-bordered tableUpdated">
             <h:column>
                 <f:facet name="header">Id</f:facet>
                 <h:outputText value="#{table.rowIndex + 1}" />
@@ -57,7 +57,7 @@
             </h:column>
         </h:dataTable>
         <center>
-        	<h:link value="Create New User" class="btn btn-success btnSpace" outcome="adicionar"/>
+        	<h:link value="Adicionar serie" class="btn btn-success btnSpace" outcome="adicionar"/>
         </center>
     </h:form>
 </h:body>

@@ -18,7 +18,7 @@ public class SerieDao {
 	public static String salvarDetalhesSerie(SerieBean newSerieObj) {
 		String navigationResult = "";
 		seriesList.add(newSerieObj);
-		navigationResult = "studentsList.xhtml?faces-redirect=true";
+		navigationResult = "list.xhtml?faces-redirect=true";
 		return navigationResult;
 	}
 

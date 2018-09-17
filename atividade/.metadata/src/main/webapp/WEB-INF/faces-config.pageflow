@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15369336806350" configfile="/atividade/src/main/webapp/WEB-INF/faces-config.xml">
   <nodes xsi:type="pageflow:PFPage" name="*" id="pf153693439779310" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf153693439779311 pf153693471794327 pf153693473273529" path="/*"/>
-  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" id="pf153693439779315" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf153693439779311" path="/index.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="createElement.xhtml" id="pf153693471794328" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf153693471794327" path="/createElement.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="ediElement.xhtml" id="pf153693473273530" referenceLink="//@navigationRule.0/@navigationCase.3/@toViewId|" inlinks="pf153693473273529" path="/ediElement.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="191" y="276" id="pf153693439779315" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf153693439779311" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="createElement.xhtml" x="168" y="180" id="pf153693471794328" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf153693471794327" path="/createElement.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ediElement.xhtml" x="168" y="72" id="pf153693473273530" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf153693473273529" path="/ediElement.xhtml"/>
   <links id="pf153693439779311" target="pf153693439779315" source="pf153693439779310" outcome="home" redirect="true"/>
   <links id="pf153693471794327" target="pf153693471794328" source="pf153693439779310" outcome="adicionar" redirect="true"/>
   <links id="pf153693473273529" target="pf153693473273530" source="pf153693439779310" outcome="editar" redirect="true"/>
